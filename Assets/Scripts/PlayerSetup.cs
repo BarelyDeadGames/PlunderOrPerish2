@@ -5,10 +5,7 @@ using BoatTutorial;
 
 public class PlayerSetup : MonoBehaviour {
 
-	public GameObject ship01Prefab;
-	public GameObject ship02Prefab;
-	public GameObject ship03Prefab;
-	private GameObject[] ships;
+	//private GameObject[] ships;
 	private GameObject playerShip;
 
 	private int currentShip;
@@ -17,6 +14,7 @@ public class PlayerSetup : MonoBehaviour {
 	private Ship01Details s1d;
 	//private Ship02Details s2d;
 	//private Ship03Details s3d;
+	private GameObject gc;
 	private PlayerDetails pd;
 	private GameManager gm;
 	private Weapons weaponsScript;
@@ -29,11 +27,14 @@ public class PlayerSetup : MonoBehaviour {
 	public GameObject ps_ExplosionSmall;
 	public List<GameObject> list_ps_ExplosionSmall = new List<GameObject>();
 
+	private PlayerController pc;
+
 	void Start () {
 		//target shared scripts
-		pd = GetComponent<PlayerDetails>();
-		gm = GetComponent<GameManager>();
-		weaponsScript = GetComponent<Weapons> ();
+		gc = GameObject.FindGameObjectWithTag("GameController");
+		pd = gc.GetComponent<PlayerDetails>();
+		gm = gc.GetComponent<GameManager>();
+		weaponsScript = gc.GetComponent<Weapons> ();
 		weaponsList = weaponsScript.weaponsList;
 		munitionsList = weaponsScript.munitionsList;
 
@@ -42,19 +43,15 @@ public class PlayerSetup : MonoBehaviour {
 
 		currentShip = pd.shipNumber;
 
+		pc = GetComponent<PlayerController> ();
+
 		LoadShip ();
+
 	}
 
 	void LoadShip() {
-		ships = new GameObject[3];
-		ships [0] = ship01Prefab;
-		ships [1] = ship02Prefab;
-		ships [2] = ship03Prefab;
-		playerShip = Instantiate (ships [currentShip]);
-		playerShip.transform.parent = this.transform;
-		playerShip.AddComponent<BoatPhysics> ();
-		playerShip.transform.tag = "PlayerShip";
-		Rigidbody rb = playerShip.GetComponent<Rigidbody> ();
+
+		Rigidbody rb = GetComponent<Rigidbody> ();
 		rb.centerOfMass = new Vector3 (0, -1.5f, -0.5f);
 
 		LoadWeapons ();
@@ -66,13 +63,13 @@ public class PlayerSetup : MonoBehaviour {
 		for (int i = 0; i < pd.lowerLevelWeaponSlots.Count; i++) { //cycle weapon slots
 			if (pd.lowerLevelWeaponSlots [i] != null) {
 				Vector3 offsetPos = s1d.weaponLLPositions [i];
-				offsetPos.y = offsetPos.y + 3f;
+				//offsetPos.y = offsetPos.y;// + 3f;
 				for (int z = 0; z < weaponsList.Count; z++) { //cycle and match weapon names
 					if (weaponsList [z].name == pd.lowerLevelWeaponSlots [i].name) {
 						GameObject weapon = Instantiate (weaponsList [z].gameObject, offsetPos, Quaternion.Euler (0, 0, 0));
-						weapon.transform.parent = playerShip.transform;
+						weapon.transform.parent = this.transform;
 						if (i > 5 / 2) {
-							weapon.transform.localScale = new Vector3 (-1, 1, 1);
+							weapon.transform.localScale = new Vector3 (-weapon.transform.localScale.x, weapon.transform.localScale.y, weapon.transform.localScale.z);
 							//right weapons
 							weaponsLL_Right.Add(weapon);
 						} else {

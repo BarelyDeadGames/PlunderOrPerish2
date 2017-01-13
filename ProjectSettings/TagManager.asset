@@ -16,6 +16,8 @@ TagManager:
   - WeaponSelectionOverlay
   - CloseWeaponSelection
   - ParticleSystems
+  - Box
+  - Enemy
   layers:
   - Default
   - TransparentFX

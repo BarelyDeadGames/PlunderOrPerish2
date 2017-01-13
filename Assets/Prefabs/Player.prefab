@@ -26,8 +26,6 @@ GameObject:
   - component: {fileID: 114210461058169238}
   - component: {fileID: 114639435024242536}
   - component: {fileID: 114892627919384304}
-  - component: {fileID: 114037458257215486}
-  - component: {fileID: 114446283679752492}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -63,38 +61,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!114 &114037458257215486
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1217174624948502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 9
-    i1: 237
-    i2: 40
-    i3: 99
-    i4: 90
-    i5: 72
-    i6: 238
-    i7: 52
-    i8: 91
-    i9: 19
-    i10: 61
-    i11: 98
-    i12: 106
-    i13: 68
-    i14: 253
-    i15: 196
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 1
 --- !u!114 &114176570696196012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,26 +105,6 @@ MonoBehaviour:
   ps_ExplosionSmall: {fileID: 1371816195674384, guid: b1dba0a84b36c43468333e1ce2f839d8,
     type: 2}
   list_ps_ExplosionSmall: []
---- !u!114 &114446283679752492
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1217174624948502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 3
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
 --- !u!114 &114613132369169784
 MonoBehaviour:
   m_ObjectHideFlags: 1

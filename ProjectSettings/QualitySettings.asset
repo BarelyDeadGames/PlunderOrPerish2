@@ -20,6 +20,33 @@ QualitySettings:
     blendWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
+    antiAliasing: 8
+    softParticles: 1
+    softVegetation: 0
+    realtimeReflectionProbes: 1
+    billboardsFaceCameraPosition: 1
+    vSyncCount: 1
+    lodBias: 0.7
+    maximumLODLevel: 0
+    particleRaycastBudget: 64
+    asyncUploadTimeSlice: 2
+    asyncUploadBufferSize: 4
+    excludedTargetPlatforms:
+    - Standalone
+  - serializedVersion: 2
+    name: Level 1
+    pixelLightCount: 1
+    shadows: 2
+    shadowResolution: 3
+    shadowProjection: 1
+    shadowCascades: 4
+    shadowDistance: 100
+    shadowNearPlaneOffset: 2
+    shadowCascade2Split: 0.33333334
+    shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
+    blendWeights: 2
+    textureQuality: 0
+    anisotropicTextures: 1
     antiAliasing: 2
     softParticles: 0
     softVegetation: 0
@@ -32,5 +59,9 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
     excludedTargetPlatforms:
-    - Standalone
-  m_PerPlatformDefaultQuality: {}
+    - Android
+    - iPhone
+  m_PerPlatformDefaultQuality:
+    Android: 0
+    Standalone: 0
+    iPhone: 0

@@ -6,6 +6,7 @@ using UnityEngine.Networking;
 public class PlayerController : NetworkBehaviour {
 
 	public float speed;
+	public GameObject cameraFollow;
 
 	private GameObject ship;
 	private Rigidbody rbChild;
@@ -13,10 +14,19 @@ public class PlayerController : NetworkBehaviour {
 
 	void Start () {
 		rbThis = GetComponent<Rigidbody> ();
+
+		if (!isLocalPlayer) {
+			tag = "Enemy";
+
+		} else {
+			GameObject cf = Instantiate (cameraFollow);
+			cf.transform.parent = this.transform;
+		}
 	}
 	
 
 	void Update () {
+
 
 		if (!isLocalPlayer)
 		{
@@ -42,6 +52,6 @@ public class PlayerController : NetworkBehaviour {
 		transform.Rotate (0, rotation / 5, 0);
 
 		//rbThis.AddTorque(transform.up * rotation * 500000);
-		
+
 	}
 }

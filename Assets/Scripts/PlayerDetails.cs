@@ -23,7 +23,8 @@ public class PlayerDetails : MonoBehaviour {
 		int_names.Add ("PlayerGold");
 		int_names.Add ("ShipNumber");
 
-		GameManager gm = GetComponent<GameManager> ();
+		GameObject gc = GameObject.FindGameObjectWithTag ("GameController");
+		GameManager gm = gc.GetComponent<GameManager> ();
 
 		foreach (GameObject value in gm.items_go.Values) {
 			lowerLevelWeaponSlots.Add (value);

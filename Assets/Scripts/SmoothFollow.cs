@@ -20,7 +20,7 @@ public class SmoothFollow : MonoBehaviour {
 			cameraFollow = GameObject.FindGameObjectWithTag("CameraFollow");
 		}
 		if (playerShip == null) {
-			playerShip = GameObject.FindGameObjectWithTag ("PlayerShip");
+			playerShip = GameObject.FindGameObjectWithTag ("Player");
 		}
 			
 		transform.position = Vector3.SmoothDamp(transform.position, cameraFollow.transform.position, ref velocity, 1);
