@@ -18,6 +18,7 @@ TagManager:
   - ParticleSystems
   - Box
   - Enemy
+  - NetworkController
   layers:
   - Default
   - TransparentFX

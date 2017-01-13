@@ -21,8 +21,8 @@ public class PlayerSetup : MonoBehaviour {
 	private List<WeaponDetails> weaponsList;
 	private List<MunitionDetails> munitionsList;
 
-	private List<GameObject> weaponsLL_Left;
-	private List<GameObject> weaponsLL_Right;
+	public List<GameObject> weaponsLL_Left;
+	public List<GameObject> weaponsLL_Right;
 
 	public GameObject ps_ExplosionSmall;
 	public List<GameObject> list_ps_ExplosionSmall = new List<GameObject>();
@@ -44,6 +44,7 @@ public class PlayerSetup : MonoBehaviour {
 		currentShip = pd.shipNumber;
 
 		pc = GetComponent<PlayerController> ();
+
 
 		LoadShip ();
 
@@ -101,6 +102,7 @@ public class PlayerSetup : MonoBehaviour {
 	}
 
 	void Update() {
+		/*
 		//FIRE LEFT
 		if (Input.GetKeyDown(KeyCode.Q)) { 
 
@@ -121,10 +123,10 @@ public class PlayerSetup : MonoBehaviour {
 				StartCoroutine(FireRight(y, i));
 
 			}
-		}
+		}*/
 
 	}
-
+	/*
 	IEnumerator FireLeft(float delay, int i) {
 
 		yield return new WaitForSeconds(delay);
@@ -149,7 +151,7 @@ public class PlayerSetup : MonoBehaviour {
 		}
 
 	}
-
+*/
 
 }
 
