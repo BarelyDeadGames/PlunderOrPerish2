@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1dd2e25a0f5e4a549a866d5f127159fb
+timeCreated: 1482854533
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Nina Script Demo
+  fontNames:
+  - Nina Script Demo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

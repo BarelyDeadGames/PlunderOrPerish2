@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1217174624948502}
+  m_IsPrefabParent: 1
+--- !u!1 &1217174624948502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4609429494470784}
+  - component: {fileID: 54388332135393590}
+  - component: {fileID: 114413055488936894}
+  - component: {fileID: 114176570696196012}
+  - component: {fileID: 114613132369169784}
+  - component: {fileID: 114210461058169238}
+  - component: {fileID: 114639435024242536}
+  - component: {fileID: 114892627919384304}
+  - component: {fileID: 114037458257215486}
+  - component: {fileID: 114446283679752492}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4609429494470784
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217174624948502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54388332135393590
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217174624948502}
+  serializedVersion: 2
+  m_Mass: 100000
+  m_Drag: 1
+  m_AngularDrag: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
+--- !u!114 &114037458257215486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217174624948502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 9
+    i1: 237
+    i2: 40
+    i3: 99
+    i4: 90
+    i5: 72
+    i6: 238
+    i7: 52
+    i8: 91
+    i9: 19
+    i10: 61
+    i11: 98
+    i12: 106
+    i13: 68
+    i14: 253
+    i15: 196
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
+--- !u!114 &114176570696196012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217174624948502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 573e943dccfa0c449a0a420cdecf2b47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 500000
+--- !u!114 &114210461058169238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217174624948502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f5b87b72b656a428bfbed6cbc7dffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameVersion: 0.1
+  fileName: PlayerDetails.xml
+  myCam: {fileID: 0}
+--- !u!114 &114413055488936894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217174624948502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209c934ce13825b4297b3cb90255c9f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ship01Prefab: {fileID: 1606174505863030, guid: a628168d8cb0a964f89a6c23ad8f51bb,
+    type: 2}
+  ship02Prefab: {fileID: 0}
+  ship03Prefab: {fileID: 0}
+  ps_ExplosionSmall: {fileID: 1371816195674384, guid: b1dba0a84b36c43468333e1ce2f839d8,
+    type: 2}
+  list_ps_ExplosionSmall: []
+--- !u!114 &114446283679752492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217174624948502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 3
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
+--- !u!114 &114613132369169784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217174624948502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a66cb607f93d04c911cb98012aaaa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cannon01Prefab: {fileID: 1099623534181096, guid: b427b6e5af974794cbc70ab1fbf85c92,
+    type: 2}
+  cannon02Prefab: {fileID: 0}
+  cannonballPrefab: {fileID: 1000014010785328, guid: 0fa3869ef02207745b461928cc8e0bf5,
+    type: 2}
+--- !u!114 &114639435024242536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217174624948502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b84325ab4a559e408d6c7d64fc37b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives: 0
+  gold: 0
+  shipNumber: 0
+  inventory: []
+  lowerLevelWeaponSlots: []
+  upperLevelWeaponSlots: []
+  otherWeapons: []
+  crew: []
+  int_names: []
+--- !u!114 &114892627919384304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217174624948502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1b1316faa42424db67e670ec2fa798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1000
+  weaponLLPositions: []
+  weaponULPositions: []
+  crewPositions: []
+  otherPositions: []

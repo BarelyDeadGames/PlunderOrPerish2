@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 84e6bf7049a2f7e4096a30d0c9309812
+timeCreated: 1480969249
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mast1
+    100004: Mast10
+    100006: Mast2
+    100008: Mast3
+    100010: Mast4_
+    100012: Mast4_1
+    100014: Mast4_2
+    100016: Mast5
+    100018: Mast6
+    100020: Mast7
+    100022: Mast8_
+    100024: Mast8_1
+    100026: Mast8_2
+    100028: Mast9
+    100030: Masts1
+    100032: Sail1_
+    100034: Sail2_
+    100036: Sail3_
+    100038: Sail4_
+    100040: Sail5_
+    100042: Sail6_
+    100044: Sail7_
+    100046: Sail8_
+    100048: Sails1
+    400000: //RootNode
+    400002: Mast1
+    400004: Mast10
+    400006: Mast2
+    400008: Mast3
+    400010: Mast4_
+    400012: Mast4_1
+    400014: Mast4_2
+    400016: Mast5
+    400018: Mast6
+    400020: Mast7
+    400022: Mast8_
+    400024: Mast8_1
+    400026: Mast8_2
+    400028: Mast9
+    400030: Masts1
+    400032: Sail1_
+    400034: Sail2_
+    400036: Sail3_
+    400038: Sail4_
+    400040: Sail5_
+    400042: Sail6_
+    400044: Sail7_
+    400046: Sail8_
+    400048: Sails1
+    2300000: //RootNode
+    2300002: Mast1
+    2300004: Mast10
+    2300006: Mast2
+    2300008: Mast3
+    2300010: Mast4_
+    2300012: Mast4_1
+    2300014: Mast4_2
+    2300016: Mast5
+    2300018: Mast6
+    2300020: Mast7
+    2300022: Mast8_
+    2300024: Mast8_1
+    2300026: Mast8_2
+    2300028: Mast9
+    2300030: Sail1_
+    2300032: Sail2_
+    2300034: Sail3_
+    2300036: Sail4_
+    2300038: Sail5_
+    2300040: Sail6_
+    2300042: Sail7_
+    2300044: Sail8_
+    3300000: //RootNode
+    3300002: Mast1
+    3300004: Mast10
+    3300006: Mast2
+    3300008: Mast3
+    3300010: Mast4_
+    3300012: Mast4_1
+    3300014: Mast4_2
+    3300016: Mast5
+    3300018: Mast6
+    3300020: Mast7
+    3300022: Mast8_
+    3300024: Mast8_1
+    3300026: Mast8_2
+    3300028: Mast9
+    3300030: Sail1_
+    3300032: Sail2_
+    3300034: Sail3_
+    3300036: Sail4_
+    3300038: Sail5_
+    3300040: Sail6_
+    3300042: Sail7_
+    3300044: Sail8_
+    4300000: ShipLowPoly01
+    4300002: Sail1_
+    4300004: Sail2_
+    4300006: Sail3_
+    4300008: Sail4_
+    4300010: Sail5_
+    4300012: Sail6_
+    4300014: Sail7_
+    4300016: Sail8_
+    4300018: Mast1
+    4300020: Mast2
+    4300022: Mast3
+    4300024: Mast4_
+    4300026: Mast4_1
+    4300028: Mast4_2
+    4300030: Mast5
+    4300032: Mast6
+    4300034: Mast7
+    4300036: Mast8_
+    4300038: Mast8_1
+    4300040: Mast8_2
+    4300042: Mast9
+    4300044: Mast10
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 52
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

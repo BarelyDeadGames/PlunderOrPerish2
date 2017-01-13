@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <GameDetails>
+    <GameVersion>0.1</GameVersion>
+  </GameDetails>
+  <PlayerDetails>
+    <PlayerGold>-1000</PlayerGold>
+    <PlayerLives>5</PlayerLives>
+    <ShipNumber>0</ShipNumber>
+    <LLWeaponSlot01>Cannon01</LLWeaponSlot01>
+    <LLWeaponSlot02>Cannon01</LLWeaponSlot02>
+    <LLWeaponSlot03>Cannon01</LLWeaponSlot03>
+    <LLWeaponSlot04>Cannon01</LLWeaponSlot04>
+    <LLWeaponSlot05>Cannon01</LLWeaponSlot05>
+    <LLWeaponSlot06>Cannon01</LLWeaponSlot06>
+    <LLWeaponSlot07>null</LLWeaponSlot07>
+    <LLWeaponSlot08>null</LLWeaponSlot08>
+    <LLWeaponSlot09>null</LLWeaponSlot09>
+    <LLWeaponSlot10>null</LLWeaponSlot10>
+  </PlayerDetails>
+</Data>

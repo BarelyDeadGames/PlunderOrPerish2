@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fca50ae7fb34903448725044458a1e32
+timeCreated: 1482856107
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: El Capitan
+  fontNames:
+  - El Capitan
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ShipColorSecondary
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _GlobalWavesMap
+      second:
+        m_Texture: {fileID: 2800000, guid: adef8b134b9b0a84899ca4a16a132689, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseWavesMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 77631be9fde1502449409a785cd40831, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Ramp
+      second:
+        m_Texture: {fileID: 2800000, guid: 4a056241e2722dc46a7262a8e7073fd9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ToonShade
+      second:
+        m_Texture: {fileID: 8900000, guid: b995d4bd9d11078d11005b9844295342, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AlphaFactor
+      second: 1
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _CollisionWaveLength
+      second: 2
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _GlobalWavesIntensity
+      second: 0
+    - first:
+        name: _GlobalWavesScale
+      second: 0
+    - first:
+        name: _GlobalWavesSpeed
+      second: 0
+    - first:
+        name: _Gloss
+      second: 1
+    - first:
+        name: _GlossMapScale
+      second: 0
+    - first:
+        name: _Glossiness
+      second: 1
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _InverseGlobalWavesDirection
+      second: 0
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _NoiseDisplacementPower
+      second: 0
+    - first:
+        name: _NoiseWavesMapContrast
+      second: 0
+    - first:
+        name: _NoiseWavesScale
+      second: 0
+    - first:
+        name: _NoiseWavesSpeed
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Outline
+      second: 0.005
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _RandomHeight
+      second: 0.5
+    - first:
+        name: _RandomSpeed
+      second: 0.5
+    - first:
+        name: _RefractionPower
+      second: 0
+    - first:
+        name: _Shininess
+      second: 1
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 1
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SpecularPower
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _TessellationAmount
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _WaveHeight
+      second: 0.5
+    - first:
+        name: _WaveLength
+      second: 0.5
+    - first:
+        name: _WaveSpeed
+      second: 1
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.1397059, g: 0.08312015, b: 0.011299744, a: 0.534}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _OutlineColor
+      second: {r: 0.061634954, g: 0.25948703, b: 0.41911763, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 0.16490053, b: 0.16490053, a: 1}
+    - first:
+        name: _WaterColor
+      second: {r: 0.44852942, g: 0.37756532, b: 0.2506488, a: 1}
